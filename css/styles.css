@@ -52,6 +52,18 @@ body {
   box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 0.1);
   padding: 1.5rem;
 }
+.card-pink:hover{
+  background-color: #F0C8FE;
+}
+.card-blue:hover{
+  background-color: #CADBFF;
+}
+.card-red:hover{
+  background-color: #FFCACA;
+}
+.card-green:hover{
+  background-color: #B4FFAF;
+}
 .background-icon {
   display: flex;
   align-items: center;
@@ -85,4 +97,18 @@ body {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;}
+}
+@media (hover:hover){
+  .card-pink:hover{
+    background-color: #F0C8FE;
+  }
+  .card-blue:hover{
+    background-color: #CADBFF;
+  }
+  .card-red:hover{
+    background-color: #FFCACA;
+  }
+  .card-green:hover{
+    background-color: #B4FFAF;
+  }
 }
