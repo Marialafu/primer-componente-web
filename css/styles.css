@@ -20,7 +20,7 @@ nav ul {
 }
 body {
   background-color: #f6f8fc;
-  margin: 0;
+  margin: 50px;
   font-family: "Roboto", sans-serif;
 }
 .title {
@@ -50,8 +50,6 @@ body {
   background-color: white;
   border-radius: 0.5rem;
   box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 0.1);
-  margin-bottom: 2rem;
-  margin-inline: auto;
   padding: 1.5rem;
 }
 .background-icon {
@@ -60,8 +58,6 @@ body {
   height: 5.625rem;
   border-radius: 100%;
   padding: 1.5625rem;
-}
-.icon {
 }
 .color-icon-pink {
   background-color: #f7ddff;
@@ -74,4 +70,24 @@ body {
 }
 .color-icon-green {
   background-color: #dfffdd;
+}
+.container{
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+@media screen and (min-width:768px){
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;}
+}
+
+@media screen and (min-width:1400px){
+  .container{
+    display: flex;}
 }
