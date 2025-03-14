@@ -52,18 +52,6 @@ body {
   box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 0.1);
   padding: 1.5rem;
 }
-.card-pink:hover{
-  background-color: #F0C8FE;
-}
-.card-blue:hover{
-  background-color: #CADBFF;
-}
-.card-red:hover{
-  background-color: #FFCACA;
-}
-.card-green:hover{
-  background-color: #B4FFAF;
-}
 .background-icon {
   display: flex;
   align-items: center;
@@ -85,30 +73,31 @@ body {
 .color-icon-green {
   background-color: #dfffdd;
 }
-.container{
+.container {
   margin-inline: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 32px;
 }
-@media screen and (min-width:768px){
-  .container{
+@media screen and (min-width: 768px) {
+  .container {
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+  }
 }
-@media (hover:hover){
-  .card-pink:hover{
-    background-color: #F0C8FE;
+@media (hover: hover) {
+  .card-pink:hover {
+    background-color: #f0c8fe;
   }
-  .card-blue:hover{
-    background-color: #CADBFF;
+  .card-blue:hover {
+    background-color: #cadbff;
   }
-  .card-red:hover{
-    background-color: #FFCACA;
+  .card-red:hover {
+    background-color: #ffcaca;
   }
-  .card-green:hover{
-    background-color: #B4FFAF;
+  .card-green:hover {
+    background-color: #b4ffaf;
   }
 }
